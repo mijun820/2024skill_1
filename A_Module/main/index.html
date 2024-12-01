@@ -166,25 +166,18 @@
         <!-- ranking 영역 -->
         <div>
             <div class="ranking_header">
-                <button>투수</button>
-                <button>타자</button>
-                <div class="ranking_header_nav">
-                    <a href=""><img class="arrow" src="./imgs/arrow-left.png" alt=""></a>
-                    <p>나이트 리그</p>
-                    <p>새벽 리그</p>
-                    <p>주말 리그</p>
-                    <a href=""><img class="arrow" src="./imgs/arrow-right.png" alt=""></a>
-                </div>
+                <ul class="ranking_header_nav">
+                    <li><a href="#night_ranking">나이트 리그</a></li>
+                    <li><a href="#weekend_ranking">새벽 리그</a></li>
+                    <li><a href="#dawn_ranking">주말 리그</a></li>
+                </ul>
             </div>
+            <button class="ranking_btn_1 ranking_btn" >투수</button>
+            <button class="ranking_btn_2 ranking_btn" >타자</button>
 
-            <ul class="league">
-                <li class="league1"><a class="league_a" href="">나이트 리그</a></li>
-                <li class="league2"><a class="league_a" href="">주말 리그</a></li>
-                <li class="league3"><a class="league_a" href="">새벽 리그</a></li>
-            </ul>
             <!-- 나이트 리그 -->
-            <div class="ranking_box">
-                <ul class="night_ranking_1">
+            <div class="ranking_box" id="night_ranking">
+                <ul class="night_ranking_1 renking ranking_player">
                     <li>투수순위</li>
                     <li>1. 나일투</li>
                     <li>2. 나이투</li>
@@ -194,7 +187,7 @@
                     <li>6. 나육투</li>
                     <li>7. 나칠투</li>
                 </ul>    
-                <ul class="night_ranking_2">
+                <ul class="night_ranking_2  ranking_player">
                     <li>타자순위</li>
                     <li>1. 나일타</li>
                     <li>2. 나이타</li>
@@ -207,8 +200,8 @@
             </div>
                 
             <!-- 주말 리그 -->
-            <div class="ranking_box">
-                <ul class="weekend_ranking_1">
+            <div class="ranking_box" id="weekend_ranking">
+                <ul class="weekend_ranking_1 renking ranking_player">
                     <li>투수순위</li>
                     <li>1. 주일투</li>
                     <li>2. 주이투</li>
@@ -218,7 +211,7 @@
                     <li>6. 주육투</li>
                     <li>7. 주칠투</li>
                 </ul>
-                <ul class="weekend_ranking_2">
+                <ul class="weekend_ranking_2  ranking_player">
                     <li>타자순위</li>
                     <li>1. 주일타</li>
                     <li>2. 주이타</li>
@@ -231,8 +224,8 @@
             </div>
 
             <!-- 새벽리그 -->
-            <div class="ranking_box">
-                <ul class="dawn_ranking_1">
+            <div class="ranking_box" id="dawn_ranking">
+                <ul class="dawn_ranking_1 renking ranking_player">
                     <li>투수순위</li>
                     <li>1. 새일투</li>
                     <li>2. 새이투</li>
@@ -242,7 +235,7 @@
                     <li>6. 새육투</li>
                     <li>7. 새칠투</li>
                 </ul>
-                <ul class="dawn_ranking_2">
+                <ul class="dawn_ranking_2  ranking_player">
                     <li>타자순위</li>
                     <li>1. 새일타</li>
                     <li>2. 새이타</li>

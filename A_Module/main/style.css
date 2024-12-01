@@ -304,12 +304,12 @@ label.right {
 /* 캐러셀 영역 */
 
 /* game schedule 영역 */
-.game_schedule_title{
+.game_schedule_title {
     text-align: center;
     margin-top: 3vh;
 }
 
-.game_schedule_sub_title{
+.game_schedule_sub_title {
     text-align: left;
     margin-left: 32vw;
 }
@@ -320,23 +320,24 @@ label.right {
     justify-content: space-between;
 }
 
-.calendar_box{
+.calendar_box {
     margin: 30px auto;
     width: 800px;
     text-align: center;
 }
 
-.calendar_li>a{
+.calendar_li>a {
     color: black;
     text-decoration: none;
 }
 
-.calendar_li:hover{
+.calendar_li:hover {
     background-color: #4e4e4e;
     transition: 0.5s;
     color: white;
 }
-.calendar_li{
+
+.calendar_li {
     border-radius: 100%;
     width: 55px;
     margin: 20px;
@@ -346,7 +347,7 @@ label.right {
     font-size: 20px;
 }
 
-.modal{
+.modal {
     width: 40vw;
     height: 70vh;
     text-align: center;
@@ -355,14 +356,14 @@ label.right {
     left: 29vw;
     right: 0;
     position: absolute;
-    background-color: rgb(58, 58, 58,0.8);
+    background-color: rgb(58, 58, 58, 0.8);
     color: white;
     font-size: 20px;
     opacity: 0;
     visibility: hidden;
 }
 
-.modal:target{
+.modal:target {
     opacity: 1;
     visibility: visible;
 }
@@ -370,27 +371,77 @@ label.right {
 /* game schedule 영역 */
 
 /* ranking 영역 */
-.ranking_box{
+.ranking_btn{
+    width: 5vw;
+    height: 6vh;
+    margin: 0 40px 0 0;
+    background-color: rgb(255, 241, 241);
+    border: 1px red solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 0 6vw;
+}
+.arrow {
+    width: 30px;
+}
+.ranking_box {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    opacity: 0;
+    display: none;
+}
+.ranking_box:target {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    opacity: 1;
     display: flex;
 }
-.ranking_box>ul{
+.ranking_header_nav>li>a{
+    text-decoration: none;
+    color: black;
+}
+.ranking_header_nav>li{
+    font-size: 30px;
+    margin: 10px;
+}
+.ranking_box>ul {
     list-style: none;
 }
-
-.league>li{
+.ranking_box>ul {
+    font-size: 30px;
+}
+.renking{
+    margin: 0 30vw 0 0;
+}
+.ranking_player>li{
+    margin: 10px;
+}
+.night_ranking_2>li{
+    margin: 10px;
+}
+.league>li {
     margin: 30px;
 }
-.league{
+
+.league {
     display: flex;
     list-style: none;
 }
 
-.ranking_header_nav{
+.ranking_header_nav {
+    list-style: none;
     display: flex;
 }
-.ranking_header{
+
+.ranking_header {
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
+
 /* ranking 영역 */
 
 /* main영역 */
