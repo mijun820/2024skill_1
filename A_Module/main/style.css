@@ -371,20 +371,11 @@ label.right {
 /* game schedule 영역 */
 
 /* ranking 영역 */
-.ranking_btn{
-    width: 5vw;
-    height: 6vh;
-    margin: 0 40px 0 0;
-    background-color: rgb(255, 241, 241);
-    border: 1px red solid;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0 0 0 6vw;
-}
+
 .arrow {
     width: 30px;
 }
+
 .ranking_box {
     display: flex;
     margin: 0 auto;
@@ -392,6 +383,7 @@ label.right {
     opacity: 0;
     display: none;
 }
+
 .ranking_box:target {
     display: flex;
     margin: 0 auto;
@@ -399,29 +391,37 @@ label.right {
     opacity: 1;
     display: flex;
 }
-.ranking_header_nav>li>a{
+
+.ranking_header_nav>li>a {
     text-decoration: none;
     color: black;
 }
-.ranking_header_nav>li{
+
+.ranking_header_nav>li {
     font-size: 30px;
     margin: 10px;
 }
+
 .ranking_box>ul {
     list-style: none;
 }
+
 .ranking_box>ul {
     font-size: 30px;
 }
-.renking{
+
+.renking {
     margin: 0 30vw 0 0;
 }
-.ranking_player>li{
+
+.ranking_player>li {
     margin: 10px;
 }
-.night_ranking_2>li{
+
+.night_ranking_2>li {
     margin: 10px;
 }
+
 .league>li {
     margin: 30px;
 }
@@ -440,6 +440,75 @@ label.right {
     display: flex;
     margin: 0 auto;
     justify-content: center;
+}
+
+.top_5_title {
+    text-align: center;
+    margin: 10vh 0;
+}
+
+.top_5 {
+    display: flex;
+}
+
+.ranking_top_1>p>a {
+    text-decoration: none;
+    color: black;
+}
+
+.ranking_top_1>p {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.ranking_top_1,
+.ranking_bottom {
+    margin: 0 auto;
+    border: #4e4e4e 1px solid;
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.ranking_bottom {
+    margin-left: -10vw;
+}
+
+.ranking_top_2>ul>li {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.ranking_top_2>ul {
+    list-style: none;
+}
+
+#ranking_batting:target {
+    display: block;
+}
+
+#ranking_homer:target {
+    display: block;
+}
+
+#ranking_wins:target {
+    display: block;
+}
+
+#ranking_own_goal:target {
+    display: block;
+}
+
+#ranking_save:target {
+    display: block;
+}
+
+.ranking_top_2 ul {
+    display: none;
+}
+
+.ranking_top_2 {
+    /* display: flex; */
 }
 
 /* ranking 영역 */
